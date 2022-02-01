@@ -44,3 +44,55 @@ form>button:hover{
     color:#fff;
     background: #fda085;
 }
+
+.fa-trash,.fa-check{ 
+    pointer-events: none;
+    font-size: 1.5rem;
+}
+/* hacemos que el logo de los botones sea inclickeable de esta forma el click es sobre el boton */
+.completed{
+    text-decoration: line-through;
+}
+
+
+.todo-list{
+    list-style: none;
+}    
+
+
+
+#li{
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    background-color: #fff;
+    width:35rem;
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+.todo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.complete-btn,.delete-btn{
+    padding: 1rem;
+    font-size: 1rem;
+    border: none;
+}
+span {
+    margin-left: 0.2rem;
+    font-family: 'Poppins' , sans-serif;
+
+}
+
+.complete-btn{
+    background:#00ff95;
+}
+.delete-btn{
+    background:#ff791f;
+}
